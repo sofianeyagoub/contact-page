@@ -1,0 +1,207 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+.page-header{
+  position: relative;
+ padding: 200px 0px;
+  background-image: url(../image/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.page-header .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212529;
+  opacity: .8;
+   padding: 150px 0px;
+}
+
+.page-header .sub-title{
+      display: block;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 0;
+    opacity: .8;
+}
+.contact-form h2{
+  font-weight: 700;
+  color: #212529;
+
+}
+.contact-form p,
+.contact-info p
+{
+  color: #777;
+}
+.contact-form label{
+  color: #777;
+}
+.contact-form input,
+.contact-form textarea
+{
+  box-shadow: none !important;
+  transition: .6s;
+}
+.contact-form input:focus,
+.contact-form textarea:focus
+{
+  border-color: #08c !important;
+}
+.contact-form .send-btn{
+  padding-left: 0;
+}
+.contact-form .send-btn input{
+  text-transform: uppercase;
+  font-weight: 800;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: .8rem;
+  background: #08c;
+  color: #fff;
+  box-shadow: none !important;
+  border: none !important;
+
+}
+.contact-form .send-btn:hover{
+  opacity: 0.8;
+}
+
+
+.contact-info h4{
+  color: #08c;
+}
+.contact-info ul{
+  list-style: none;
+  padding: 0;
+}
+.contact-info ul li{
+  color: #777;
+  margin-bottom: 10px;
+}
+.contact-info ul li i{
+      color: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    font-size: .8em;
+    line-height: 1.3;
+    background-color: #08c;
+}
+
+#footer{
+    background: #212529;
+    border-top: 4px solid #212529;
+    font-size: .9em;
+    padding: 0;
+    position: relative;
+    clear: both;
+}
+#footer ul{
+  padding: 0;
+  list-style: none;
+}
+#footer ul li{
+  color: #a8a8a8;
+}
+#footer  h5{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#footer .contact span{
+  text-transform: uppercase;
+  font-weight: 400;
+  display: block;
+  color: #fff;
+}
+#footer .contact .icons{
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+#footer .contact .icons li{
+  display: inline-block;
+  
+}
+#footer .contact .icons li a{
+    height: 38px;
+    display: block;
+    color: #fff;
+    margin-left: 5px;
+    line-height: 38px;
+    border-radius: 100%;
+    width: 38px;
+    transition: .6s;
+    text-align: center;
+    font-size: .9rem;
+    border: 1px solid rgba(255,255,255,.1);
+}
+#footer .contact .icons li:hover .facebook{
+  background: #3b5a9a;
+}
+#footer .contact .icons li:hover .twitter{
+  background: #1aa9e1;
+}
+#footer .contact .icons li:hover .instagram{
+  background: #7c4a3a;
+}
+#footer .links ul li a{
+  color: #777;
+  text-decoration: none;
+}
+#footer .links ul li a:hover{
+  color: #fff;
+}
+#footer .newsletter input{
+      background: rgba(255,255,255,.05);
+    border-radius: 35px;
+    height: auto;
+    padding: .5rem 1.5rem;
+    color: #bfbfbf;
+    transition: .6s;
+    box-shadow: none !important;
+    border-color: rgba(255,255,255,.05);
+}
+#footer .newsletter input:focus{
+  border-color: #676767;
+}
+#footer .newsletter a{
+   text-decoration: none;
+   color: #fff;
+   padding: 10px 20px;
+   background: #08c;
+   text-transform: uppercase;
+   font-weight: 400;
+   border-radius: 20px;
+}
+#footer p{
+  color: #777;
+  text-align: justify;
+}
+#footer .copyright p{
+  text-align: center;
+}
+#footer hr{
+  border-top: 1px solid #777;
+}
+@media only screen and (max-width: 767px) {
+  .contact-form .row{
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
